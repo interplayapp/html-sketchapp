@@ -69,6 +69,10 @@ export default function nodeToSketchLayers(node, options) {
   const height = bcr.bottom - bcr.top;
 
   const styles = getComputedStyle(node);
+  
+  console.log("HERE");
+  console.log(styles);
+  
   const {
     backgroundColor,
     backgroundImage,
